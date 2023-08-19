@@ -22,7 +22,7 @@ public class DataTypeExecise {
 		
 		System.out.println(str);
 		
-		System.out.println("isSessionIsInteresting: "+isSessionIsInteresting);
+		System.out.println("Is Session Interesting: "+isSessionIsInteresting);
 		
 	}
 
