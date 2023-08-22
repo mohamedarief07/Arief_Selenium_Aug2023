@@ -1,4 +1,4 @@
-package week1.day2.assignment;
+package assignment.week1.day2;
 
 public class IsPrime {
 
