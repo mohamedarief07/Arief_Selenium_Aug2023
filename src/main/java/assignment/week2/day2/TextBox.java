@@ -110,6 +110,7 @@ public class TextBox {
 		EditorElement1.sendKeys("Text Editor");
 		EditorElement1.sendKeys(Keys.CONTROL, "a");
 		driver.findElement(By.xpath("(//button[@class='ql-bold'])[2]")).click();
+		driver.close();
 
 	}
 

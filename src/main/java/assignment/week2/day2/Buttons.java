@@ -1,10 +1,11 @@
-package assignment.week2.day1;
+package assignment.week2.day2;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class LeafGroundButtons {
+public class Buttons {
 
 	public static void main(String[] args) {
 		ChromeDriver driver = new ChromeDriver();
@@ -28,14 +29,17 @@ public class LeafGroundButtons {
 		driver.get("https://www.leafground.com/button.xhtml");
 		System.out.println("=================Confirm if the button is disabled.=========================");
 
+		WebElement isDisabledElement = driver
+				.findElement(By.xpath("//h5[text()='Confirm if the button is disabled.']/parent::div"));
+		System.out.println("Confirm if the button is disable:  " + isDisabledElement.isEnabled());
+
 		System.out.println("=================Find the position of the Submit button=========================");
 
-		Dimension size = driver.findElement(By.linkText("Submit")).getSize();
-
-
-
-		System.out.println(size);
-	
+		WebElement findPosition = driver
+				.findElement(By.xpath("(//h5[text()='Find the position of the Submit button']/following::span)[2]"));
+		System.out.println("Position of the Submit button is : " + findPosition.getLocation());
+		
+		driver.close();
 
 	}
 
