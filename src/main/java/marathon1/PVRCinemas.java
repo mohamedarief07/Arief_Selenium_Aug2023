@@ -15,6 +15,9 @@ public class PVRCinemas {
 		ChromeOptions options = new ChromeOptions(); 
 		options.addArguments("--disable-notifications"); 
 		
+	
+		
+		
 		ChromeDriver driver = new ChromeDriver(options);
 		driver.get("https://www.pvrcinemas.com/");
 		driver.manage().window().maximize();
