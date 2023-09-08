@@ -1,6 +1,6 @@
 package assignment.week3.day2;
 
-public class RemoveDuplicates {
+public class RemoveDuplicatesLogical {
 
 	public static void main(String[] args) {
 
