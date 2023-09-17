@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Leaftabs" duration-ms="77662" started-at="2023-09-17T23:51:15 IST" finished-at="2023-09-17T23:52:32 IST">
+    <groups>
+    </groups>
+    <test name="CreateandUpdate Module" duration-ms="36316" started-at="2023-09-17T23:51:15 IST" finished-at="2023-09-17T23:51:51 IST">
+      <class name="assignment.week5.day2.EditLead">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:assignment.week5.day2.EditLead@706a04ae]" name="preCondition" is-config="true" duration-ms="7764" started-at="2023-09-17T23:51:30 IST" finished-at="2023-09-17T23:51:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="editLeadTestCase02()[pri:0, instance:assignment.week5.day2.EditLead@706a04ae]" name="editLeadTestCase02" duration-ms="12398" started-at="2023-09-17T23:51:38 IST" finished-at="2023-09-17T23:51:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLeadTestCase02 -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:assignment.week5.day2.EditLead@706a04ae]" name="postCondition" is-config="true" duration-ms="774" started-at="2023-09-17T23:51:50 IST" finished-at="2023-09-17T23:51:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- assignment.week5.day2.EditLead -->
+      <class name="assignment.week5.day2.CreateLead">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:assignment.week5.day2.CreateLead@64f6106c]" name="preCondition" is-config="true" duration-ms="9750" started-at="2023-09-17T23:51:15 IST" finished-at="2023-09-17T23:51:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createLeadTestCase01()[pri:0, instance:assignment.week5.day2.CreateLead@64f6106c]" name="createLeadTestCase01" duration-ms="4844" started-at="2023-09-17T23:51:24 IST" finished-at="2023-09-17T23:51:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadTestCase01 -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:assignment.week5.day2.CreateLead@64f6106c]" name="postCondition" is-config="true" duration-ms="754" started-at="2023-09-17T23:51:29 IST" finished-at="2023-09-17T23:51:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- assignment.week5.day2.CreateLead -->
+    </test> <!-- CreateandUpdate Module -->
+    <test name="Other Module" duration-ms="77662" started-at="2023-09-17T23:51:15 IST" finished-at="2023-09-17T23:52:32 IST">
+      <class name="assignment.week5.day2.DuplicateLead">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:assignment.week5.day2.DuplicateLead@35a50a4c]" name="preCondition" is-config="true" duration-ms="9795" started-at="2023-09-17T23:51:15 IST" finished-at="2023-09-17T23:51:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="duplicateLeadTestCase03()[pri:0, instance:assignment.week5.day2.DuplicateLead@35a50a4c]" name="duplicateLeadTestCase03" duration-ms="14446" started-at="2023-09-17T23:51:24 IST" finished-at="2023-09-17T23:51:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateLeadTestCase03 -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:assignment.week5.day2.DuplicateLead@35a50a4c]" name="postCondition" is-config="true" duration-ms="769" started-at="2023-09-17T23:51:39 IST" finished-at="2023-09-17T23:51:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- assignment.week5.day2.DuplicateLead -->
+      <class name="assignment.week5.day2.MergeLead">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:assignment.week5.day2.MergeLead@103f852]" name="preCondition" is-config="true" duration-ms="7167" started-at="2023-09-17T23:52:03 IST" finished-at="2023-09-17T23:52:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="mergeLeadTestCase05()[pri:0, instance:assignment.week5.day2.MergeLead@103f852]" name="mergeLeadTestCase05" duration-ms="21025" started-at="2023-09-17T23:52:11 IST" finished-at="2023-09-17T23:52:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeLeadTestCase05 -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:assignment.week5.day2.MergeLead@103f852]" name="postCondition" is-config="true" duration-ms="762" started-at="2023-09-17T23:52:32 IST" finished-at="2023-09-17T23:52:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- assignment.week5.day2.MergeLead -->
+      <class name="assignment.week5.day2.DeleteLead">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:assignment.week5.day2.DeleteLead@1f021e6c]" name="preCondition" is-config="true" duration-ms="8689" started-at="2023-09-17T23:51:40 IST" finished-at="2023-09-17T23:51:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="deleteLeadTestCase04()[pri:0, instance:assignment.week5.day2.DeleteLead@1f021e6c]" name="deleteLeadTestCase04" duration-ms="14156" started-at="2023-09-17T23:51:48 IST" finished-at="2023-09-17T23:52:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLeadTestCase04 -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:assignment.week5.day2.DeleteLead@1f021e6c]" name="postCondition" is-config="true" duration-ms="822" started-at="2023-09-17T23:52:03 IST" finished-at="2023-09-17T23:52:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- assignment.week5.day2.DeleteLead -->
+    </test> <!-- Other Module -->
+  </suite> <!-- Leaftabs -->
+</testng-results>
