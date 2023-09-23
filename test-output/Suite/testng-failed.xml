@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="password" value="crmsfa"/>
+  <parameter name="URL" value="http://leaftaps.com/opentaps/control/main"/>
+  <parameter name="username" value="Demosalesmanager"/>
+  <test thread-count="2" verbose="5" name="Test(failed)" parallel="tests">
     <classes>
-      <class name="week5.day1.testcase.DeleteLead">
+      <class name="assignment.week6.day1.DuplicateLead">
         <methods>
-          <include name="deleteLeadTestCase"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="duplicateLeadTestCase03"/>
         </methods>
-      </class> <!-- week5.day1.testcase.DeleteLead -->
+      </class> <!-- assignment.week6.day1.DuplicateLead -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

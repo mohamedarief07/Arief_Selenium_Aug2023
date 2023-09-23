@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assignment.week5.day2.DuplicateLead">
+      <class name="assignment.week6.day1.DeleteLead">
         <methods>
+          <include name="setData"/>
+          <include name="deleteLeadTestCase04"/>
           <include name="preCondition"/>
           <include name="postCondition"/>
-          <include name="duplicateLeadTestCase03"/>
         </methods>
-      </class> <!-- assignment.week5.day2.DuplicateLead -->
+      </class> <!-- assignment.week6.day1.DeleteLead -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

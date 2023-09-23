@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests" verbose="5">
+<parameter name="URL" value="http://leaftaps.com/opentaps/control/main"/>
+<parameter name="Browser-Name" value="chrome"/>
+	<test name="Create and Edit">
+		<classes>
+			<!-- <class name="LearnExcel.CreateLead" /> -->
+			<class name="LearnExcel.EditLead" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Others">
+		<classes>
+			<!-- <class name="LearnExcel.DuplicateLead" />
+			<class name="LearnExcel.MergeLead" />
+			<class name="LearnExcel.DeleteLead" /> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
