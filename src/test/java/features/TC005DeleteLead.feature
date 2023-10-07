@@ -5,7 +5,7 @@ Feature: Delete Lead in Leaftaps
 #    And Load the Leaftaps url
 #    And Maximize the browser
 
-
+@regression
   Scenario Outline: TC005 Delete Lead
 Given Enter the username as 'Demosalesmanager'
 And Enter the password as 'crmsfa'

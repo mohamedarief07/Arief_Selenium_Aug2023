@@ -5,7 +5,7 @@ Feature: Duplicate Lead in Leaftaps
 #And Load the Leaftaps url
 #And Maximize the browser
 
-
+ @regression @smoke  @sanity
 Scenario Outline: TC004 Duplicate Lead
 Given Enter the username as 'Demosalesmanager'
 And Enter the password as 'crmsfa'

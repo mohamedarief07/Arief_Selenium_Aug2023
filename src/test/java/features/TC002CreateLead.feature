@@ -1,6 +1,6 @@
 Feature: Create Lead of LeafTabs
 
- @functional
+@functional @regression 
 Scenario Outline: TC002 Create Lead with mandatory fields
 
 
