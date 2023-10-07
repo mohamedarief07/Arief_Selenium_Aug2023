@@ -50,8 +50,7 @@ public class ProjectSpecificMethod {
 	@DataProvider (name="dyno01")
 	public String[][] sendData() throws IOException {
 
-		
-		
+			
 		return ReadExcel.getExcelData(excelFilePath,sheetName);
 	}
 
